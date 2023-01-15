@@ -82,11 +82,16 @@ header{
 .hero-area-btn{
     padding: 15px 25px;
     background-color: var(--orang-color);
-    border: none;
+    border: 2px solid var(--orang-color);
     color: white;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    transition:0.3s;
+}
+.hero-area-btn:hover{
+    background-color:  transparent;
+    color: var(--gray-color);
 }
 
 .hero-area-image img{
